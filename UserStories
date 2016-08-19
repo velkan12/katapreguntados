@@ -1,0 +1,23 @@
+Features a Desarrollar:
+
+iniciar partida
+responder preguntas
+mostrar resultados parciales
+mostrar resultados finales
+cambiar pregunta
+Regresar al menu principal
+pasar pregunta
+usar una pista
+escoger tematica
+Nivel de dificultad
+Iniciar sesion
+
+Iniciar partida:
+
+  Como Velkan
+  Quiero poder comenzar una partida nueva
+  para medir mis conocimientos
+
+  Criterios de aceptación:
+  - Debe haber un letrero de bienvenida
+  - Debe existir un boton de "iniciar nuevo juego"
