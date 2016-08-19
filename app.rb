@@ -1,8 +1,11 @@
 require 'sinatra'
 
 get '/' do
-erb :index
+  erb :index
 end
 post '/start' do
-erb :jugar
+  erb :jugar
+end
+post '/answer' do
+  "Right answer"
 end

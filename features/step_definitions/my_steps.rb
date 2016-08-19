@@ -1,11 +1,20 @@
 Given(/^i open the app$/) do
-visit '/'
+  visit '/'
 end
 
-Then(/^i should see "(.*?)"$/) do |welcome|
-  last_response.body.should =~ /#{welcome}/m
+Then(/^i should see "(.*?)"$/) do |v|
+  last_response.body.should =~ /#{v}/m
 end
 
 When(/^i start a new Game$/) do
-click_button("start")
+  click_button("start")
+end
+
+Given(/^i play Preguntados$/) do
+  visit '/'
+  click_button("start")
+end
+
+When(/^i choose an answer$/) do
+  click_button ("answer")
 end
