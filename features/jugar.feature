@@ -5,5 +5,5 @@ para medir mis habilidades
 
 Scenario: Responder una pregunta correcta
 Given i play Preguntados
-When i choose an answer
+When i choose  "Bruce Wayne"
 Then i should see "Right answer"

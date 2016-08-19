@@ -15,6 +15,7 @@ Given(/^i play Preguntados$/) do
   click_button("start")
 end
 
-When(/^i choose an answer$/) do
+When(/^i choose  "(.*?)"$/) do |arg1|
+  choose(arg1)
   click_button ("answer")
 end
